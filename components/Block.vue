@@ -5,7 +5,7 @@
 <script setup>
 import { onBeforeMount, ref } from 'vue';
 
-const data = ref({});
+const data = ref([]);
 
 onBeforeMount(loadData);
 
